@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <getopt.h>
 #define FALSE 0
-#define TRUE 0
+#define TRUE 1
 
 //////////////////////////////////////////////////////////////////////
 
@@ -66,8 +66,7 @@ int main(int argc, char* argv[])
         }
     }
 
+
     printf("\r\n##### Fin de la ejecucion #####\r\n");
     return 0;
 }
-
-//Para ejecutar: ./lab2.exe -i prueba100.csv -o out.out -n 10 -d 20 -b -s 3
